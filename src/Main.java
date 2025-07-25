@@ -17,6 +17,11 @@ public class Main {
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + reportFullName);
 
 
+        // Задача 3: Замена буквы "ё"
+        System.out.println("\nЗадача 3");
+        fullName = "Иванов Семён Семёнович";
+        String correctedName = fullName.replace('ё', 'е');
+        System.out.println("Данные Ф. И. О. сотрудника — " + correctedName);
 
     }
 }
